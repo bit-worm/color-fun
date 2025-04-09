@@ -7,6 +7,7 @@ const green = document.getElementById('green');
 const blue = document.getElementById('blue');
 const indigo = document.getElementById('indigo');
 const violet = document.getElementById('violet');
+const clear = document.getElementById('clear');
 
 
 
@@ -38,4 +39,9 @@ violet.addEventListener('click', function() {
   body.style.backgroundColor = 'violet';
   heading.innerHTML = 'Violet';
 });
+clear.addEventListener('click', function() {
+  body.style.backgroundColor = 'white';
+  heading.innerHTML = 'Color';
+})
+
 

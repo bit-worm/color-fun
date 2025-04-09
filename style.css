@@ -26,3 +26,13 @@ body {
   min-height: 45px;
 }
 
+.clear-btn {
+  display: flex;
+  margin: auto;
+  margin-top: 50px;
+  justify-content: center;
+}
+#clear {
+  padding: 5px;
+  min-width: 60px;
+}
